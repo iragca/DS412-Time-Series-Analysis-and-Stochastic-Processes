@@ -13,6 +13,7 @@ class DirectoryPaths(Enum):
     ENV_FILE = PROJECT_ROOT / ".env"
     DATA = PROJECT_ROOT / "data"
     EXTERNAL_DATA = DATA / "external"
+    MPL_STYLE_DIR = PROJECT_ROOT / "src" / "matplotlib"
 
 
 _PROJECT_ROOT = DirectoryPaths.PROJECT_ROOT.value
