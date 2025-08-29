@@ -14,6 +14,7 @@ class DirectoryPaths(Enum):
     DATA = PROJECT_ROOT / "data"
     EXTERNAL_DATA = DATA / "external"
     MPL_STYLE_DIR = PROJECT_ROOT / "src" / "matplotlib"
+    FIGURES_DIR = PROJECT_ROOT / "figures"
 
 
 _PROJECT_ROOT = DirectoryPaths.PROJECT_ROOT.value
