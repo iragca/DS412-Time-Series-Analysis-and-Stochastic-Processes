@@ -10,8 +10,13 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
+    "ipykernel>=6.29.5",
     "loguru>=0.7.3",
+    "matplotlib>=3.10.5",
+    "polars>=1.32.3",
+    "seaborn>=0.13.2",
     "typer>=0.16.1",
+    "ucimlrepo>=0.0.7",
 ]
 
 [dependency-groups]
