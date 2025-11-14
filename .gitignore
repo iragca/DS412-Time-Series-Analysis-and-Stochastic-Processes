@@ -19,3 +19,5 @@ wheels/
 
 # Test Notebooks
 *.test.ipynb
+
+datasets/
